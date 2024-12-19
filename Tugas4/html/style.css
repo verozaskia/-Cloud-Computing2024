@@ -1,0 +1,224 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #858585;
+    
+}
+
+.header {
+    text-align: center;
+    background-image: url("OIP.jpg");
+    background-size: 1920px 1166px;
+    background-position-y: -470px;
+    padding: 90px;
+    line-height: 40px;
+    transition: opacity 0.5s;
+    font-size: 30px;
+    position: relative; 
+    color: #353f43;
+}
+
+.profile-photo {
+    display: inline-flex;
+    width: 220px; 
+    height: 220px;
+    margin: 0 auto;  
+    border-radius: 50%; 
+    border: 4px solid #353f43;
+    overflow: hidden;
+    color: black;
+}
+
+.profile-photo img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    padding: 20px;
+    background-color:#e4d7c7; 
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: black;
+    margin-left: 25px;
+}
+
+.content p {
+    font-size: 18px;
+    color: black;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 30px;
+    text-align:justify;
+}
+
+.Mindset {
+    padding: 20px;
+    background-color: white; 
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Mindset h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: black;
+    margin-left: 25px;
+}
+
+.Mindset p {
+    font-size: 18px;
+    color: black;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 30px;
+    text-align:justify;
+}
+
+.Pendidikan {
+    padding: 20px;
+    background-color: #e4d7c7; 
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Pendidikan h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: black;
+    margin-left: 25px;
+}
+
+.Pendidikan p {
+    font-size: 18px;
+    color: black;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 30px;
+    text-align:justify;
+}
+
+
+.Skills {
+    padding: 20px;
+    padding-bottom: 40px;
+    background-color: white; 
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Skills h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: black;
+    margin-left: 25px;
+}
+
+.Skills p {
+    font-size: 18px;
+    color: black;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 10px;
+    text-align:justify;
+}
+
+.Skills li{
+    font-size: 18px;
+    color: black;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align:justify;
+}
+ 
+.Tools {
+    padding: 20px;
+    padding-bottom: 40px;
+    background-color: #e4d7c7;
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Tools h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: black;
+    margin-left: 25px;
+}
+
+.Tools p {
+    font-size: 18px;
+    color: black;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 10px;
+    text-align: justify;
+}
+
+
+.connect {
+    padding: 20px;
+    padding-bottom: 40px;
+    background-color: white;
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.connect h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: black;
+    margin-left: 25px;
+}
+
+.connect p {
+    font-size: 18px;
+    color: black;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 10px;
+    text-align: justify;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tool {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+.tool img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.tool p {
+    font-size: 14px;
+    margin-top: 5px;
+    color: black;
+}
+
+.scrolling .header {
+    opacity: 0;
+    
+}
