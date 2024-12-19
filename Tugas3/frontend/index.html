@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah Siswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tambah Siswa ke Kursus</h1>
+
+    <form method="post" action="backend/index.php">
+        Nama: <input type="text" name="name" required><br><br>
+        NRP: <input type="text" name="nrp" required><br><br>
+        Umur: <input type="number" name="age" required><br><br>
+        Jurusan: <input type="text" name="major" required><br><br>
+        <input type="submit" value="Tambah Siswa">
+    </form>
+
+    <h2>Daftar Siswa</h2>
+    <table>
+        <!-- Daftar siswa akan ditampilkan di sini melalui PHP -->
+    </table>
+</body>
+</html>
